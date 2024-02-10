@@ -146,6 +146,5 @@ const tokenSchema = new Schema<IToken>({
   time: Number
 })
 
-const TokenModel = mongoose.model("Token", tokenSchema);
 const Collection = mongoose.model("Collection", collectionSchema);
-export { Collection, IToken, TokenModel, ICollection, mongoose };
+export { Collection, IToken, ICollection, mongoose };
